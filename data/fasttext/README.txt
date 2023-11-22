@@ -1,0 +1,1 @@
+Download here the "wiki.pt.vec" model.

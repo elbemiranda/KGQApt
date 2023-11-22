@@ -1,0 +1,4122 @@
+{
+    "dataset": {
+        "id": "qald-7-test-multilingual"
+    },
+    "questions": [
+        {
+            "id": "2",
+            "answertype": "boolean",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Are there any castles in the United States?",
+                    "keywords": "castles, United States"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Existem castelos  nos  Estados Unidos?",
+                    "keywords": "castelos, Estados Unidos"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Gibt es irgendwelche Schlösser in den Vereinigten Staaten?",
+                    "keywords": "Schlösser, Vereinigte Staaten"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Ci sono castelli negli Stati Uniti?",
+                    "keywords": "castelli, Stati Uniti"
+                },
+                {
+                    "language": "fr",
+                    "string": "Y a-t-il des châteaux aux États-Unis?",
+                    "keywords": "châteaux, États-Unis"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:> ask where {?uri dct:subject dbc:Castelos_dos_Estados_Unidos}"
+            },
+            "answers": [
+                {
+                    "head": {},
+                    "boolean": false
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "answertype": "boolean",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Can you find frescoes in Crete?",
+                    "keywords": "frescoes, Crete"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Você encontra pinturas a fresco em Creta?",
+                    "keywords": "pinturas a fresco, Creta"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Können Sie Fresken in Kreta finden?",
+                    "keywords": "Fresken, Kreta"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Si possono trovare affreschi a Creta?",
+                    "keywords": "affreschi, Creta"
+                },
+                {
+                    "language": "fr",
+                    "string": "Peut-on trouver des fresques en Crète?",
+                    "keywords": "fresques, Crète"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:> PREFIX dbp: <http://dbpedia.org/property/> PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://pt.dbpedia.org/resource/>ask where { ?uri dct:subject dbc:Afresco . ?uri dbp:museum ?museum . ?museum dbo:location dbr:Creta . }"
+            },
+            "answers": [
+                {
+                    "head": {},
+                    "boolean": false
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "answertype": "boolean",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Do Urdu and Persian have a common root?",
+                    "keywords": "Urdu, Persian, common root"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Urdu e persa tem uma raíz em comum?",
+                    "keywords": "urdu, persa, raíz comum"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Haben Urdu und Perser eine gemeinsame Wurzel?",
+                    "keywords": "Urdu, Perser, gemeinsame Wurzel"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Urdu e Persiano hanno le stesse radici?",
+                    "keywords": "Urdu, Persiano, stesse, radici"
+                },
+                {
+                    "language": "fr",
+                    "string": "Est-ce que l'ourdou et le persan ont une origine commune?",
+                    "keywords": "ourdou, persan, origine commune"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://pt.dbpedia.org/resource/> ask where { dbr:Língua_urdu dbo:languageFamily ?uri . dbr:Língua_persa dbo:languageFamily ?uri . }"
+            },
+            "answers": [
+                {
+                    "head": {},
+                    "boolean": false
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "answertype": "boolean",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Does the Ford Motor Company have a manufacturing plant in Malaysia?",
+                    "keywords": "Ford Motor Company, manufacturing plant, Malaysia"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "A companhia de automóveis da Ford tem uma fábrica na Malásia?",
+                    "keywords": "companhia de automóveis da Ford, fábrica, Malásia"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Hat Ford eine Frabik in Malaysia?",
+                    "keywords": "Ford, Fabrik, Malaysia"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "La Ford ha una fabbrica in Malesia?",
+                    "keywords": "Ford, fabbrica, Malesia"
+                },
+                {
+                    "language": "fr",
+                    "string": "Est-ce que Ford possède une usine en Malaisie?",
+                    "keywords": "Ford, usine, Malaisie"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbo: <http://pt.dbpedia.org/ontology/> PREFIX dbr: <http://pt.dbpedia.org/resource/Malaysia> ask where { ?uri dbo:assembly dbr:Malaysia . ?uri dbo:manufacturer dbr:Ford_Motor_Company .}"
+            },
+            "answers": [
+                {
+                    "head": {},
+                    "boolean": false
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "answertype": "number",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "How many years was the Ford Model T manufactured?",
+                    "keywords": "years, Ford Model T, manufactured"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quantos anos o Modelo T da Ford T foi fabricado?",
+                    "keywords": "anos, modelo T da Ford, fabricado"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wie viele Jahre wurde das Ford Model T hergestellt?",
+                    "keywords": "Jahre, Ford Model T, hergestellt"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Per quanti anni fu prodotta la Ford T?",
+                    "keywords": "anni, Ford T, prodotta"
+                },
+                {
+                    "language": "fr",
+                    "string": "Pendant combien d'années la Ford T a-t-elle été fabriquée?",
+                    "keywords": "années, Ford T, frabriquée"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> PREFIX res: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> SELECT (year(xsd:date(?end))-year(xsd:date(?start)) AS ?years) WHERE { res:Ford_Model_T dbo:productionEndYear ?end. res:Ford_Model_T dbo:productionStartYear ?start. }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "years"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "years": {
+                                    "type": "literal",
+                                    "value": "0"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "answertype": "resource",
+            "aggregation": "true",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Give me all American presidents in the last 20 years.",
+                    "keywords": "American presidents, last 20 years"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Me dê todos os presidentes Americanos dos últimos 20 anos.",
+                    "keywords": "presidente Americano, últimos 20 anos"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Gib mir alle Amerikanischen Präsidenten der letzten 20 Jahre.",
+                    "keywords": "Amerikanische Präsidenten, letzten 20 Jahre"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Dammi tutti i presidenti americani degli ultimi 20 anni.",
+                    "keywords": "presidenti americani, ultimi 20 anni"
+                },
+                {
+                    "language": "fr",
+                    "string": "Donnez-moi le nom des présidents américains des 20 dernières années.",
+                    "keywords": "présidents américains, 20 dernières années"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>PREFIX dbo: <http://dbpedia.org/ontology/>PREFIX dct: <http://purl.org/dc/terms/>PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:>PREFIX dbp: <http://pt.dbpedia.org/property/>select ?uri where { ?uri rdf:type dbo:Person .?uri dct:subject dbc:Presidentes_dos_Estados_Unidos .?uri dbp:anos ?termEnd .FILTER(year(NOW()) - ?termEnd <= 20)}"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/George_W._Bush"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Barack_Obama"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Give me all gangsters from the prohibition era.",
+                    "keywords": "gangsters, prohibition era"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Me dê todas as gangues da era proibida.",
+                    "keywords": "gangues, era proibida"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Gib mir alle Gangster der Prohibitions Ära.",
+                    "keywords": "Gangster, Prohibitions Ära"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Dammi tutti i gangster dell'era del proibizionismo.",
+                    "keywords": "gangster, era, proibizionismo"
+                },
+                {
+                    "language": "fr",
+                    "string": "Donnez-moi le nom de tous les gangsters de la Prohibition.",
+                    "keywords": "gangsters, Prohibition"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "9",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Give me all Seven Wonders of the Ancient World.",
+                    "keywords": "Seven Wonders of the Ancient World"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Me dê todas as Sete Maravilhas do Mundo Antigo.",
+                    "keywords": "Sete Maravilhas do Mundo Antigo"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Gib mir alle Sieben Wunder der Antiken Welt.",
+                    "keywords": "Sieben Wunder der Antiken Welt"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Dammi tutte le Sette Meraviglie del Mondo Antico.",
+                    "keywords": "Sette Meraviglie del Mondo Antico"
+                },
+                {
+                    "language": "fr",
+                    "string": "Donnez-moi le nom des Sept Merveilles du Monde antique.",
+                    "keywords": "Sept Merveilles du Monde antique"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:> select ?uri where { ?uri dct:subject dbc:Sete_maravilhas_do_Mundo}"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sete_maravilhas_do_mundo_(desambiguação)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sete_maravilhas_naturais_do_mundo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Colosso_de_Rodes"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Estátua_de_Zeus_em_Olímpia"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Farol_de_Alexandria"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Jardins_Suspensos_da_Babilónia"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Mausoléu_de_Halicarnasso"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Necrópole_de_Gizé"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sete_maravilhas_do_mundo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sete_maravilhas_do_mundo_moderno"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Templo_de_Ártemis"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Give me all chemical elements.",
+                    "keywords": "chemical elements"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Me dê todos os elementos químicos.",
+                    "keywords": "elementos químicos"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Gib mir alle Chemischen Elemente.",
+                    "keywords": "Chemische Elemente"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Dammi tutti gli elementi chimici.",
+                    "keywords": "elementi chimici"
+                },
+                {
+                    "language": "fr",
+                    "string": "Donnez-moi le nom de tous les éléments chimiques.",
+                    "keywords": "éléments chimiques"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:>select distinct ?uri where { ?uri dct:subject dbc:Elementos_químicos . }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Elemento_cisurânico"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Estado_nativo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Elemento_transurânico"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Classificação_de_Goldschmidt"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Tântalo_(elemento_químico)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ununénnio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Abundância_natural"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Alumínio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Amerício"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Antimônio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Arsênio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Berquélio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Bismuto"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Boro"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Bromo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Bário"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Bóhrio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Califórnio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Carbono"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Chumbo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cobalto"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cobre"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Copernício"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Crípton"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Crômio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cádmio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cálcio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cério"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Césio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cúrio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Darmstácio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Disprósio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dúbnio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Elemento_(química)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Elemento_sintético"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Escândio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Estanho"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Estrôncio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Európio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ferro"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Fleróvio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Flúor"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Frâncio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Férmio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Gadolínio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Gálio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Hidrogénio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Háfnio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Hássio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Hélio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Hólmio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Iodo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Irídio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Itérbio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lantânio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Laurêncio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lista_de_elementos_químicos"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Livermório"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lutécio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lítio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Magnésio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Manganês"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Meitnério"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Mendelévio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Mercúrio_(elemento_químico)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Molibdênio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Neodímio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Neptúnio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Nióbio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Nobélio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Níquel"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ouro"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Oxigénio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Paládio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Platina"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Plutónio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Polônio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Potássio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Praseodímio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Prata"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Promécio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Protactínio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Roentgênio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rubídio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rutherfórdio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rutênio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rádio_(elemento_químico)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rádon"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rênio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ródio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Samário"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Seabórgio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Selênio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sódio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Tecnécio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Telúrio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Titânio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Tungstênio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Tálio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Térbio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Tório"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Túlio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ununpêntio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ununséptio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ununóctio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ununúnio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Unúntrio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Urânio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Vanádio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Xenônio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Zinco"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Zircônio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ástato"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Érbio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Índio_(elemento_químico)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ítrio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ósmio"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Abundância_dos_elementos_químicos"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Adamantino"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "How many rivers and lakes are in South Carolina?",
+                    "keywords": "rivers, lakes, South Carolina"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quantos rios e lagos existem na Carolina do Norte?",
+                    "keywords": "rios, lagos, Carolina do Norte"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wie viele Flüsse und Seen gibt es in South Carolina?",
+                    "keywords": "Flüsse, Seen, South Carolina"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quanti fiumi e laghi ci sono in Carolina del Sud?",
+                    "keywords": "fiumi, laghi, Carolina del Sud"
+                },
+                {
+                    "language": "fr",
+                    "string": "Combien de rivières et de lacs y a-t-il en Caroline du Sud?",
+                    "keywords": "rivières, lacs, Caroline du Sud"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://pt.dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:> select (COUNT(distinct ?uri) as ?count) where { { ?uri dbo:location dbr:Carolina_do_Sul .  ?uri rdf:type dbo:Lake .} UNION { ?uri dct:subject dbc:Rios_da_Carolina_do_Sul . } }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "count"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "count": {
+                                    "type": "uri",
+                                    "value": "1"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "answertype": "number",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "How many states are in Mexico?",
+                    "keywords": "states, Mexico"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quantos estados existem no México?",
+                    "keywords": "estados, México"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wie viele Staaten gibt es in Mexiko?",
+                    "keywords": "Staaten, Mexiko"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quanti stati ci sono in Messico?",
+                    "keywords": "stati, Messico"
+                },
+                {
+                    "language": "fr",
+                    "string": "Combien d'états y a-t-il au Mexique?",
+                    "keywords": "états, Mexique"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://pt.dbpedia.org/resource/> select (count(?uri) as ?count) where { ?uri dbo:type dbr:Estados_do_México }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "count"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "count": {
+                                    "type": "literal",
+                                    "value": "0"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "answertype": "number",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "How many theories did Albert Einstein come up with?",
+                    "keywords": "theories, Albert Einstein, come up"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quantas teorias Albert Einstein apresentou?",
+                    "keywords": "teorias, Albert Einstein, apresentar"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wie viele Theorien hat Albert Einstein formuliert?",
+                    "keywords": "Theorien, Albert Einstein, formuliert"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quante teorie formulò Albert Einstein?",
+                    "keywords": "teorie, formulò, Albert Einstein"
+                },
+                {
+                    "language": "fr",
+                    "string": "Combien de théories a Albert Einstein formulé?",
+                    "keywords": "théories, Albert Einstein, formulé"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbr: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> select (count(?uri) as ?count) where { dbr:Albert_Einstein dbo:knownFor ?uri}"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "count"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "count": {
+                                    "type": "literal",
+                                    "value": "8"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "answertype": "boolean",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Is horse racing a sport?",
+                    "keywords": "horse racing, sport"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Corrida de cavalos é um esporte?",
+                    "keywords": "Corrida de cavalos, esporte"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Ist Pferderennen ein Sport",
+                    "keywords": "Pferderennen, Sport"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "L'ippica è uno sport?",
+                    "keywords": "ippica, sport"
+                },
+                {
+                    "language": "fr",
+                    "string": "Est-ce que les courses hippiques sont un sport?",
+                    "keywords": "courses hippiques, sport"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbr: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> ask where { dbr:Turfe a dbo:Sport }"
+            },
+            "answers": [
+                {
+                    "head": {},
+                    "boolean": false
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "answertype": "boolean",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Is Pluto really a planet?",
+                    "keywords": "Pluto, planet"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Plutão é realmente um planeta?",
+                    "keywords": "plutão, planeta"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Ist Pluto wirklich ein Planet?",
+                    "keywords": "Pluto, Planet"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Plutone è veramente un pianeta?",
+                    "keywords": "Plutone, pianeta"
+                },
+                {
+                    "language": "fr",
+                    "string": "Est-ce que Pluton est réellement une planète?",
+                    "keywords": "Pluton, planète"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbr: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> ask where { dbr:Plutão a dbo:Planet }"
+            },
+            "answers": [
+                {
+                    "head": {},
+                    "boolean": true
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "answertype": "boolean",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Was Sigmund Freud married?",
+                    "keywords": "Sigmund Freud, married"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Sigmund Freud foi casado?",
+                    "keywords": "Sigmund Freud,  casado"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "War Sigmund Freud verheiratet?",
+                    "keywords": "Sigmund Freud, verheiratet"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Sigmund Freud era sposato?",
+                    "keywords": "Sigmund Freud, sposato"
+                },
+                {
+                    "language": "fr",
+                    "string": "Est-ce que Sigmund Freud était marié?",
+                    "keywords": "Sigmund Freud, marié"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbr: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> ask where { dbr:Sigmund_Freud dbo:spouse ?uri }"
+            },
+            "answers": [
+                {
+                    "head": {},
+                    "boolean": false
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What form of government is found in South Africa?",
+                    "keywords": "form, government, South Africa"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Que tipo de governo é encontrado na África do Sul?",
+                    "keywords": "forma, governo, África do Sul"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Welche Regierungsform hat Südafrika?",
+                    "keywords": "Regierungsform, Südafrika"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Che forma di governo c'è in Sudafrica?",
+                    "keywords": "forma, governo, Sudafrica"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelle forme de gouvernement y a-t-il en Afrique du Sud?",
+                    "keywords": "forme, gouvernement, Afrique du Sud"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbr: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> select ?uri where { dbr:África_do_Sul dbo:governmentType ?uri }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Presidencialismo"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "answertype": "resource",
+            "aggregation": "true",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What is the largest state in the United States?",
+                    "keywords": "largest state, United States"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual é o maior estado dos Estados Unidos?",
+                    "keywords": "maior estado, Estados Unidos"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Was ist der größte Staat in den Vereinigten Staaten?",
+                    "keywords": "größte Staat, Vereinigten Staaten"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Qual è lo stato più esteso degli Stati Uniti?",
+                    "keywords": "stato più esteso, Stati Uniti"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quel est le plus grand état des États-Unis?",
+                    "keywords": "le plus grand état, États-Unis"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:> #PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> #PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbp: <http://pt.dbpedia.org/property/>PREFIX skos: <http://www.w3.org/2004/02/skos/core#>  select ?uri where { ?s  skos:broader dbc:Estados_dos_Estados_Unidos. ?uri dct:subject ?s.#?uri rdf:type dbo:AdministrativeRegion. ?uri dbp:área ?area} ORDER BY DESC(?area) OFFSET 0 LIMIT 1"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Alasca"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "answertype": "resource",
+            "aggregation": "true",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What is the longest river in the world?",
+                    "keywords": "longest river, world"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual é o rio mais longo do mundo?",
+                    "keywords": "rio mais longo, mundo"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Was ist der längste Fluss der Welt?",
+                    "keywords": "längste Fluss, Welt"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Qual è il fiume più lungo del mondo?",
+                    "keywords": "fiume più lungo, mondo"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelle est la rivière la plus longue au monde?",
+                    "keywords": "rivière, la plus longue, monde"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX dbo: <http://dbpedia.org/ontology/> select * where { ?uri rdf:type dbo:River . ?uri dbo:length ?length .FILTER(REGEX(?uri,\"^http://pt.dbpedia.org/resource/\"))} ORDER BY DESC(?length) LIMIT 1"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rio_Nilo"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "answertype": "resource",
+            "aggregation": "true",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Which building after the Burj Khalifa has the most floors?",
+                    "keywords": "building, after, Burj Khalifa, most floors"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual prédio depois do Burj Khalifa tem mais andares?",
+                    "keywords": "prédio,  depois,  Burj Khalifa, mais andares"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Welches Gebäude nach dem Burj Khalifa hat die meisten Etagen",
+                    "keywords": "Gebäude, nach, Burj Khalifa, meisten Etagen"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quale edificio dopo il Burj Khalifa ha più piani?",
+                    "keywords": "edificio, dopo, Burj Khalifa, più piani"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quel édifice a le plus grand nombre d'étages après le Burj Khalifa?",
+                    "keywords": "édifice, le plus grand nombre d'étages, après, Burj Khalifa "
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "25",
+            "answertype": "number",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What is the wavelength of indigo?",
+                    "keywords": "wavelength, indigo"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual é o comprimento de onda do anil?",
+                    "keywords": "comprimento, anil"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Was ist die Wellenlänge von Indigo?",
+                    "keywords": "Wellenlänge, Indigo"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Qual è la lunghezza d'onda dell'indaco?",
+                    "keywords": "lunghezza d'onda, indaco"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelle est la longueur d'onde de l'indigo?",
+                    "keywords": "longueur d'onde, indigo"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "26",
+            "answertype": "resource",
+            "aggregation": "true",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What was the name of the famous battle in 1836 in San Antonio?",
+                    "keywords": "famous battle, 1836, San Antonio"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual foi o nome da famosa batalha em 1836 em Santo Antônio?",
+                    "keywords": "famosa batalha, 1836, Santo Antônio"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wie ist der Name der berühmten Schlacht von 1836 in San Antonio?",
+                    "keywords": "berühmte Schlacht, 1836, San Antonio"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quale fu il nome della famosa battaglia di San Antonio del 1836?",
+                    "keywords": "famosa battaglia, San Antonio, 1836"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quel est le nom de la célèbre bataille de San Antonio en 1836?",
+                    "keywords": "célèbre bataille, San Antonio, 1836"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "27",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What were the names of the three ships used by Columbus?",
+                    "keywords": "three ships, used, Columbus"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quais eram os nomes dos três navios usados por Colombo?",
+                    "keywords": "três navios, usados, Colombo"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Was waren die Namen der drei Schiffe, die Columbus benutzte?",
+                    "keywords": "drei Schiffe, Columbus, benutzte"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quali furono i nomi delle tre navi utilizzate da Colombo?",
+                    "keywords": "tre navi, utilizzate, Colombo"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quels sont les noms des trois bateaux utilisés par Colomb?",
+                    "keywords": "trois bateaux, utilisés, Colomb"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:> select ?uri where {?uri rdf:type dbo:Ship. ?uri dct:subject dbc:Cristóvão_Colombo. }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Pinta_(caravela)"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What were the original 13 British colonies?",
+                    "keywords": "original 13 British colonies"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quais eram as 13 colônias originais britânicas?",
+                    "keywords": "13 colônias originais britânicas"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Was waren die Originalen 13 Britischen Kolonien?",
+                    "keywords": "Originalen 13 Britischen Kolonien"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quali furono le 13 originarie colonie britanniche?",
+                    "keywords": "13 originarie colonie britanniche"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelles étaient les 13 colonnies britanniques originales?",
+                    "keywords": "13 colonnies britanniques originales"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "29",
+            "answertype": "date",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "When did Muhammad die?",
+                    "keywords": "Muhammad, die"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quando Muhammad morreu?",
+                    "keywords": "Muhammad, morreu"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wann ist Muhammad gestorben?",
+                    "keywords": "Muhammad, gestorben"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quando morì Maometto?",
+                    "keywords": "morì, Maometto"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quand est mort Mahomet?",
+                    "keywords": "mort, Mahomet"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "30",
+            "answertype": "date",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "When was the De Beers company founded?",
+                    "keywords": "De Beers company, founded"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quando a companhia De Beers foi fundada?",
+                    "keywords": "companhia De Beers, fundada"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wann wurde De Beers gegründet?",
+                    "keywords": "De Beers, gegründet"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quando fu fondata l'azienda De Beers?",
+                    "keywords": "fondata, De Beers"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quand a été fondée la société De Beers?",
+                    "keywords": "fondée, société De Beers"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX res: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> select distinct ?date where { res:De_Beers dbo:foundingYear ?date. }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "date"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "date": {
+                                    "type": "literal",
+                                    "value": "1888"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "answertype": "date",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "When was John Adams born?",
+                    "keywords": "John Adams, born"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quando John Adams nasceu?",
+                    "keywords": "John Adams, nasceu"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wann wurde John Adams geboren?",
+                    "keywords": "John Adams, geboren"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quando nacque John Adams?",
+                    "keywords": "nacque, John Adams"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quand est né John Adams?",
+                    "keywords": "né, John Adams"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "32",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Which American presidents were in office during the Vietnam War?",
+                    "keywords": "American presidents, office, Vietnam War"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quais presidentes estavam na administração durante a guerra do Vietnam?",
+                    "keywords": "presidentes americanos, administração, guerra do Vietnam"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Welche Amerikanischen Präsidenten waren während des Vietnamkriegs im Amt?",
+                    "keywords": "Amerikanischer Präsidenten, Vietnamkriegs, Amt"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quali presidenti americani erano in carica durante la Guerra del Vietnam?",
+                    "keywords": "presidenti americani, in carica, Guerra del Vietnam"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quels présidents américains étaient au pouvoir pendant la guerre du Vietnam?",
+                    "keywords": "président américain, au pouvoir, guerre du Vietnam"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:>PREFIX res: <http://pt.dbpedia.org/resource/>PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dct: <http://purl.org/dc/terms/> select * where { res:Guerra_do_Vietnã dbo:commander ?uri . ?uri dct:subject dbc:Presidentes_dos_Estados_Unidos .}"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/John_F._Kennedy"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Richard_Nixon"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lyndon_B._Johnson"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "answertype": "resource",
+            "aggregation": "true",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Which city has the oldest running metro?",
+                    "keywords": "city, oldest running metro"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual cidade tem o mais antigo metrô em funcionamento?",
+                    "keywords": "cidade,   mais antigo metrô em funcionamento"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Welche Stadt hat die älteste funktionierende U-Bahn?",
+                    "keywords": "Stadt, älteste funktionierende U-Bahn"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quale città ha la più antica metropolitana in funzione?",
+                    "keywords": "città, più antica metropolitana, in funzione"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelle ville a le plus vieux métro en fonction?",
+                    "keywords": "ville, le plus vieux métro, en fonction"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "34",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Which holidays are celebrated around the world?",
+                    "keywords": "holidays, celebrated, world"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quais feriados  são celebrados ao redor do mundo?",
+                    "keywords": "feriados, celebrados, mundo"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Welche Feiertage werden auf der Welt gefeiert?",
+                    "keywords": "Feiertage, Welt, gefeiert"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quali festività sono celebrate nel mondo?",
+                    "keywords": "festività, celebrate, mondo"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelles fêtes sont célébrées autour du monde?",
+                    "keywords": "fêtes, célébrées, monde"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:> PREFIX dbp: <http://pt.dbpedia.org/property/>PREFIX skos: <http://www.w3.org/2004/02/skos/core#> select ?uri2 where { ?s skos:broader dbc:Feriados.?uri skos:broader ?s.?uri2 dct:subject ?uri}"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_da_Mulher_Moçambicana"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_dos_Mortos"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Eid_al-Fitr"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Festa_do_Sacrifício"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Mawlid"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Laylat_al-Qadr"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Vesak"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ano-novo_chinês"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Feriados_na_Austrália"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_da_Austrália"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_ANZAC"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Bacanal"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cerialia"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Carmentália"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lupercália"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lemúria_(festival)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lista_de_festivais_da_Roma_Antiga"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Parentália"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Apanan"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Oriki_de_Iansã"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Feitura_de_santo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Cura_(candomblé)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Elegun"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Festa_de_Santa_Bárbara"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Orunkó"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Zorra_(candomblé)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Efun"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ekodidé"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ewo_(tabu)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Urupim"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Xaxará"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Afoxé_(bloco)"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Alaiandê_Xirê"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Axexê"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ejé"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Festa_de_Iemanjá"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ipadê_de_Exu"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Olubajé"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sassayin"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Águas_de_Oxalá"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_de_Portugal,_de_Camões_e_das_Comunidades_Portuguesas"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lista_das_principais_festas_e_romarias_de_Portugal"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sexta-feira_Santa"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Corpus_Christi"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_do_Trabalhador"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Páscoa"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Restauração_da_Independência"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Revolução_de_25_de_Abril_de_1974"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Assunção_de_Maria"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Imaculada_Conceição"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Implantação_da_República_Portuguesa"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_de_Todos-os-Santos"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sexta-feira_Santa"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Festa_da_Independência_da_Bahia"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Corpus_Christi"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_dos_Fiéis_Defuntos"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Feriados_no_Brasil"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_da_Pátria"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Contagem_do_Ômer"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Lag_BaÔmer"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Mimuna"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Festas_judaicas"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Rosh_Hashaná"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Simchat_Torá"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Sucot"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Hoshaná_Rabá"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Tishá_BeAv"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Pessach"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Purim"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Yom_Kipur"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Chanucá"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Shavuot"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Grandes_festas_no_judaísmo"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Tu_Bishvat"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Holi"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Khumba_Mela"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Diwali"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Epifania_do_Senhor"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Preciosíssimo_sangue"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_dos_Santos_Inocentes"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Páscoa"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_da_Reforma_Protestante"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ação_de_Graças"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Dia_de_Martin_Luther_King"
+                                }
+                            },
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Ação_de_Graças"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Who assassinated President McKinley?",
+                    "keywords": "assassinated, President McKinley"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quem matou o Presidente McKinley?",
+                    "keywords": "assassinado, Presidente Mckinley"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wer hat Präsident McKinley ermordet?",
+                    "keywords": "Präsident McKinley, ermordet"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Chi assassinò il presidente McKinley?",
+                    "keywords": "assassinò, presidente McKinley"
+                },
+                {
+                    "language": "fr",
+                    "string": "Qui a assassiné le président McKinley?",
+                    "keywords": "assassiné, président McKinley"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "36",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Who discovered Pluto?",
+                    "keywords": "discovered, Pluto"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quem descobriu Plutão?",
+                    "keywords": "descobriu, Plutão"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wer hat Pluto entdeckt?",
+                    "keywords": "Pluto, entdeckt"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Chi scoprì Plutone?",
+                    "keywords": "scoprì, Plutone"
+                },
+                {
+                    "language": "fr",
+                    "string": "Qui a découvert Pluton?",
+                    "keywords": "découvert, Pluton"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "37",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Who killed Caesar?",
+                    "keywords": "killed, Caesar"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quem matou Caesar?",
+                    "keywords": "matou, Caesar"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wer hat Caesar getötet?",
+                    "keywords": "Caesar, getötet"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Chi uccise Giulio Cesare?",
+                    "keywords": "uccise, Giulio Cesare"
+                },
+                {
+                    "language": "fr",
+                    "string": "Qui a tué César?",
+                    "keywords": "tué, César"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "38",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Who was buried in the Great Pyramid of Giza?",
+                    "keywords": "buried, Great Pyramid of Giza"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quem foi sepultado na Grande Pirâmide de Giza?",
+                    "keywords": "sepultado, Grande Pirâmide de Giza"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wer wurde in der Cheops-Pyramide begraben?",
+                    "keywords": "Cheops-Pyramide, begraben"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Chi fu sepolto nella Grande Piramide di Giza?",
+                    "keywords": "sepolto, Grande Piramide di Giza"
+                },
+                {
+                    "language": "fr",
+                    "string": "Qui est enterré dans la grande pyramide de Gizeh?",
+                    "keywords": "enterré, grande pyramide de Gizeh"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "39",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Who was the first King of England?",
+                    "keywords": "first King of England"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quem foi o primeiro rei da Inglaterra?",
+                    "keywords": "primeiro rei da Inglaterra"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wer war der erste König von England?",
+                    "keywords": "erste König von England"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Chi fu il primo Re d'Inghilterra?",
+                    "keywords": "primo Re d'Inghilterra"
+                },
+                {
+                    "language": "fr",
+                    "string": "Qui était le premier roi d'Angleterre?",
+                    "keywords": "premier roi d'Angleterre"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dct: <http://purl.org/dc/terms/>PREFIX dbp: <http://pt.dbpedia.org/property/>PREFIX dbc: <http://pt.dbpedia.org/resource/Categoria:>PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>select ?uri where { ?uri  dct:subject dbc:Monarcas_da_Inglaterra. ?uri  dbp:reinado  ?b.FILTER(datatype(?b)=xsd:integer)} ORDER BY ASC(?b) OFFSET 0 LIMIT 1"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "uri"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "uri": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Etelstano_de_Inglaterra"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "answertype": "string",
+            "aggregation": "true",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What was the final result of the War of the Roses?",
+                    "keywords": "result, War of Roses"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual foi o resultado final da Guerra das Rosas?",
+                    "keywords": "resultado, Guerra das Rosas"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Was war das Endergebnis der Rosenkriege?",
+                    "keywords": "Endergebnis, Rosenkriege"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quale fu il risultato finale della Guerra delle Due Rose?",
+                    "keywords": "risultato, Guerra delle Due Rose"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quel a été le résultat final de la Guerre des Rose?",
+                    "keywords": "résultat final, Guerre des Rose"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://pt.dbpedia.org/resource/> PREFIX dbp: <http://pt.dbpedia.org/property/>select ?resultado where { dbr:Guerra_das_Rosas dbp:resultado ?resultado. }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "result"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "result": {
+                                    "type": "literal",
+                                    "value": "Vitória da Casa de Lencastre, ascensão da Casa de Tudor, união da Casa de Lencastre e Casa de York"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Who writes the Farmers' Almanac?",
+                    "keywords": "writes, Farmers' Almanac"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quem escreve o Almanaque Farmers’?",
+                    "keywords": "escreve, Almanaque Farmers’"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wer schreibt das Farmes' Almanac?",
+                    "keywords": "schreibt, Farmers' Almanac"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Chi scrive il Farmers' Almanac?",
+                    "keywords": "scrive, Farmers' Almanac"
+                },
+                {
+                    "language": "fr",
+                    "string": "Qui écrit l'Almanach des fermiers?",
+                    "keywords": "écrit, Almanach des fermiers"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "43",
+            "answertype": "number",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "How big is the earth's diameter?",
+                    "keywords": "big, earth, diameter"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual o tamanho do diâmetro da terra?",
+                    "keywords": "tamanho, terra, diâmetro"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wie groß ist der Durchmesser der Erde?",
+                    "keywords": "groß, Durchmesser, Erde"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quanto è grande il diametro della Terra?",
+                    "keywords": "grande, diametro, Terra"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelle est la longueur du diamètre de la Terre?",
+                    "keywords": "longueur, diamètre, Terre"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> PREFIX res: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> select distinct (xsd:double(?radius)*2 AS ?diameter) where { res:Terra dbo:meanRadius ?radius. }"
+            },
+            "answers": []
+        },
+        {
+            "id": "44",
+            "answertype": "date",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "When did Paraguay proclaim its independence?",
+                    "keywords": "Paraguay, proclaim, independence"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quando o Paraguai proclamou sua independência?",
+                    "keywords": "Paraguai, proclamou, independência"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wann hat Paraguay seine Unabhängigkeit verkündet?",
+                    "keywords": "Paraguay, Unabhängigkeit, verkündet"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quando si dichiarò indipendente il Paraguay?",
+                    "keywords": "dichiarò, indipendente, Paraguay"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quand est-ce que le Paraguay a prononcé son indépendance?",
+                    "keywords": "Paraguay, prononcé, indépendance"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "45",
+            "answertype": "number",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "How many people live in Eurasia?",
+                    "keywords": "people, Eurasia"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Quantas pessoas moram na Eurásia?",
+                    "keywords": "pessoas, Eurásia"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Wie viele Menschen leben in Eurasien?",
+                    "keywords": "Menschen, Eurasien"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quante persone vivono in Eurasia?",
+                    "keywords": "persone, Eurasia"
+                },
+                {
+                    "language": "fr",
+                    "string": "Combien de personnes vivent en Eurasie?",
+                    "keywords": "personnes, Eurasie"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "47",
+            "answertype": "number",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Give me the runtime of Toy Story.",
+                    "keywords": "runtime, Toy Story"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Me dê a duração de Toy Story.",
+                    "keywords": "duração, Toy Story"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Gib mir die Laufzeit von Toy Story.",
+                    "keywords": "Laufzeit, Toy Story"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Dammi la durata di Toy Story.",
+                    "keywords": "durata, Toy Story"
+                },
+                {
+                    "language": "fr",
+                    "string": "Donnez-moi la durée de Toy Story.",
+                    "keywords": "durée, Toy Story"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "48",
+            "answertype": "string",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "What was the first name of the band Queens of the Stone Age?",
+                    "keywords": "first name, Queens of the Stone Age"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual foi o primeiro nome da banda Queens of the Stone Age?",
+                    "keywords": "primeiro nome, Queens of the Stone Age"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Was war der erste Name der Band Queens of the Stone Age?",
+                    "keywords": "erste Name, Queens of the Stone Age"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Qual è stato il primo nome del gruppo Queens of the Stone Age?",
+                    "keywords": "primo nome, Queens of the Stone Age"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quel était le premier nom du groupe Queens of the Stone Age?",
+                    "keywords": "premier nom, Queens of the Stone Age"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {},
+            "answers": []
+        },
+        {
+            "id": "49",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Give me the birth place of Frank Sinatra.",
+                    "keywords": "birth place, Frank Sinatra"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Me dê o lugar de nascimento de Frank Sinatra.",
+                    "keywords": "lugar de nascimento, Frank Sinatra"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Gib mir den Geburtsort von Frank Sinatra.",
+                    "keywords": "Geburtsort, Frank Sinatra"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Dammi il luogo di nascita di Frank Sinatra.",
+                    "keywords": "luogo di nascita, Frank Sinatra"
+                },
+                {
+                    "language": "fr",
+                    "string": "Donnez-moi le lieu de naissance de Frank Sinatra.",
+                    "keywords": "lieu de naissance, Frank Sinatra"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX res: <http://pt.dbpedia.org/resource/> PREFIX dbp: <http://pt.dbpedia.org/property/>select ?place where { res:Frank_Sinatra dbp:nascimento ?place . }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "place"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "place": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Hoboken_(Nova_Jérsei)"
+                                }
+                            },
+                            {
+                                "place": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Nova_Jérsia"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "answertype": "resource",
+            "aggregation": "false",
+            "onlydbo": "false",
+            "hybrid": "false",
+            "question": [
+                {
+                    "language": "en",
+                    "string": "Which university did Angela Merkel attend?",
+                    "keywords": "university, Angela Merkel"
+                },
+                {
+                    "language": "pt_BR",
+                    "string": "Qual universidade Angela Merkel frequentou?",
+                    "keywords": "universidade, Angela Merkel"
+                },
+                {
+                    "language": "fa",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "de",
+                    "string": "Welche Universiät hat Angela Merkel besucht?",
+                    "keywords": "Universität, Angela Merkel"
+                },
+                {
+                    "language": "es",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "it",
+                    "string": "Quale università ha frequentato Angela Merkel?",
+                    "keywords": "università, frequentato, Angela Merkel"
+                },
+                {
+                    "language": "fr",
+                    "string": "Quelle université a Angela Merkel fréquenté?",
+                    "keywords": "université, Angela Merkel, fréquenté"
+                },
+                {
+                    "language": "nl",
+                    "string": "",
+                    "keywords": ""
+                },
+                {
+                    "language": "ro",
+                    "string": "",
+                    "keywords": ""
+                }
+            ],
+            "query": {
+                "sparql": "PREFIX res: <http://pt.dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> select distinct ?university where { res:Angela_Merkel dbo:almaMater ?university . }"
+            },
+            "answers": [
+                {
+                    "head": {
+                        "vars": [
+                            "university"
+                        ]
+                    },
+                    "results": {
+                        "bindings": [
+                            {
+                                "university": {
+                                    "type": "uri",
+                                    "value": "http://pt.dbpedia.org/resource/Universidade_de_Leipzig"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
